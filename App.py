@@ -3,7 +3,7 @@ import pickle
 import numpy as np
 import pandas as pd
 
-Model = pickle.load(open('CarDetailsAda.pkl','rb'))
+Model = pickle.load(open('CarDetailsbr.pkl','rb'))
 
 # streamlit Part
 st.title('Used Car Price Predictor')
