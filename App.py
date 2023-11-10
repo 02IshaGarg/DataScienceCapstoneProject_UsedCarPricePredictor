@@ -6,7 +6,7 @@ import pandas as pd
 Model = pickle.load(open('CarDetailsbr.pkl','rb'))
 
 # streamlit Part
-st.title('Used Car Price Predictor')
+st.title('Used Car Price Predictor 🚗')
 st.markdown('Are you planning to sell your car?')
 st.markdown("So let's try evaluating the price....")
 
