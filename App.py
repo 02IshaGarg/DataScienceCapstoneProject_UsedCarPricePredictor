@@ -8,7 +8,7 @@ Model = pickle.load(open('CarDetailsbr.pkl','rb'))
 # streamlit Part
 st.title('Used Car Price Predictor 🚗')
 st.markdown('Are you planning to sell your car?')
-st.markdown("So let's try evaluating the price....")
+st.markdown("So let's try evaluating the price💰....")
 
 # Car Brand
 brand = st.selectbox('Select Car Brand',
