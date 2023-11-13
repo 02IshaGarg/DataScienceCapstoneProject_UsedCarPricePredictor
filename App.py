@@ -2813,7 +2813,7 @@ if st.button('Predict'):
     elif transmission == 'Manual':
         transmission_Automatic, transmission_Manual = 0,1
 
-    test = np.array([year, km_driven, name_enc, brand_enc, fuel_enc, owner_enc, seller_type_Dealer, seller_type_Individual,	seller_type_Trustmark_Dealer, transmission_Automatic, transmission_Manual]) 
+    test = np.array([year, km_driven, name_enc, brand_enc, fuel_enc, owner_enc, seller_type_Dealer, seller_type_Individual, seller_type_Trustmark_Dealer, transmission_Automatic, transmission_Manual]) 
     test = test.reshape(1,11)
     st.success(Model.predict(test)[0])
 
