@@ -82,7 +82,7 @@ owner = st.selectbox('Select the type of Owner',
 
 # km_driven
 km_driven = st.slider('KM Driven', 1, 806599)
-
+number = st.number_input(value=None, placeholder="Kilometer driven by your car...")
 
 # Predict Button
 
